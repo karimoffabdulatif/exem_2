@@ -1,0 +1,131 @@
+
+/*--------------------------------------------------
+                     N    A    V
+----------------------------------------------------*/ 
+
+
+header {
+    background-color: #EDF3F8;
+    padding-top: 40px;
+  }
+  
+  .logo {
+    width: 135px;
+    height: 38px;
+    top: 5px;
+    margin-right: 64px;
+    cursor: pointer;
+  }
+  
+  .nav__lists {
+    display:inline-block;
+  }
+  
+  .nav__links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav__list {
+    display: inline-block;
+    margin-right: auto;
+  }
+  
+  .nav__link {
+    margin-left: 40px;
+   opacity: 70%;
+   color: #36536B;
+   font-family: Public Sans;
+   font-weight: 700;
+   line-height: 18px;
+   letter-spacing: 0px;
+   font-size: 15px;
+   cursor: pointer;
+  }
+  
+  
+  
+  .nav__btn {
+    display: inline-block;
+    width: 173px;
+    height: 48px;
+    background: #BA4270;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.11538461595773697px;
+    text-align: center;
+    color: white;
+    border-radius: 50px;  
+    border: 0;
+    margin-left: auto;
+    cursor: pointer;
+  }
+
+  .header__menu {
+    display: none;
+    background-image: url('../imgs/mobil_header_hamburger.svg');
+    border: none;
+    height: 17px;
+    width: 28px;
+  }
+  
+  .nav__link:hover {
+    color: #36536B;
+    opacity: 100%;
+  }
+  
+  .logo:hover {
+    opacity: 70%;
+  }
+  
+  .nav__btn:hover {
+    opacity: 70%;
+  }
+
+  .header__menu {
+    width: 28px;
+    height: 17px;
+
+  }
+
+  @media only screen and (max-width: 375px) {
+    .nav__btn {
+      display: none;
+    }
+
+    .nav__lists {
+      display: none;
+    }
+
+    .header__menu {
+      height: 17px;
+      width: 28px;
+      background-image: url(../imgs/mobil_header_hamburger.svg);
+      background-color: transparent;
+      margin-left: auto;
+      border: none;
+      display: block;
+
+
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+
+
+  
